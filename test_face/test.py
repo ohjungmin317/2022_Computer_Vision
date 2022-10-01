@@ -26,7 +26,7 @@ while(1):
 
 	#화면에 출력한다
 	cv2.imshow('frame', frame)
-	if cv2.waitKey(1) == 27: # q가 입력되면 중지
+	if cv2.waitKey(1) == 27: # ESC가 입력되면 중지
 		break
 
 cam.release()
