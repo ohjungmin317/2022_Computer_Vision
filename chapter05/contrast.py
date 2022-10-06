@@ -10,7 +10,7 @@ def contrast():
 
     s = 1.0
     dst = cv.convertScaleAbs(src, alpha=1+s, beta=-128*s)
-    
+
     cv.imshow('src',src)
     cv.imshow('dst',dst)
     cv.waitKey()
